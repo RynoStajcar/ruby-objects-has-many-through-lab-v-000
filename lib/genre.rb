@@ -3,11 +3,11 @@ class Genre
 
   def initialize(name)
     @name = name
-    @songs = []
+    @songs = [] << self
   end
 
   def songs
-    @songs << self
+    @songs
   end
 
   def artist
