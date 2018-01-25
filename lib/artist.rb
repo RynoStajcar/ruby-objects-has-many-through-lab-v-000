@@ -18,5 +18,5 @@ class Artist
 
   def genres(genre)
   end
-  
+
 end
