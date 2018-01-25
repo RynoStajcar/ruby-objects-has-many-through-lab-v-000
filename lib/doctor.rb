@@ -6,8 +6,8 @@ class Doctor
     @appointments = []
   end
 
-  def add_appointment(i)
-    @appointments << i
+  def add_appointment(appointment)
+    @appointments << appointment
   end
 
   def appointments
